@@ -1,0 +1,75 @@
+# =============================================
+# Python cache & bytecode
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# =============================================
+# Virtual environments
+# =============================================
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================
+# Secrets & environment variables
+# =============================================
+.env
+*.env
+.env.*
+secrets.py
+config_secrets.py
+
+# =============================================
+# Jupyter Notebooks checkpoints
+# =============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================
+# Distribution / packaging
+# =============================================
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# =============================================
+# Testing & coverage
+# =============================================
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+
+# =============================================
+# IDEs & editors
+# =============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================
+# Large raw data files (public PhysioNet data)
+# Download from: https://physionet.org/content/sleep-edfx/1.0.0/
+# =============================================
+*.edf
+*.EDF
+
+# =============================================
+# OS-generated files
+# =============================================
+desktop.ini
+ehthumbs.db
